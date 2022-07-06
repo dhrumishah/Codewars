@@ -30,3 +30,9 @@ function boolToWord( bool ){
 function solution(str){
   return str.split('').reverse().join('');  
 }
+
+//Return Negative
+
+function makeNegative(num) {
+  return num > 0 ? num * -1 : num;
+}
