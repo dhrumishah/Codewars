@@ -23,3 +23,10 @@ function numberToString(num) {
 function boolToWord( bool ){
   return bool === true ? "Yes" : "No";
 }
+
+
+//Complete the solution so that it reverses the string passed into it.
+
+function solution(str){
+  return str.split('').reverse().join('');  
+}
