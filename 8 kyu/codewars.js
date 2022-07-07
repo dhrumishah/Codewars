@@ -48,3 +48,14 @@ function positiveSum(arr) {
   }
   return sum;
 }
+
+
+//String repeat
+
+function repeatStr (n, s) {
+  let t = s;
+  for(let i=0; i<n-1; i++ ){
+    t = t + s;
+  }
+  return t;
+}
