@@ -65,3 +65,12 @@ function repeatStr (n, s) {
 function removeChar(str){
   return str.slice(1, str.length-1)
 };
+
+//Find the smallest integer in the array 
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    const sortedArray =  args.sort(function(a, b){return a - b})
+    return sortedArray[0];
+    }
+}
