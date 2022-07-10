@@ -14,3 +14,10 @@ function getCount(str) {
   }
   return count;
 }
+
+//Disemvowel Trolls
+
+function disemvowel(str) {
+  const newStr= str.replace(/a|e|i|o|u/gi, "");
+  return newStr;
+}
