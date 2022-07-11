@@ -74,3 +74,10 @@ class SmallestIntegerFinder {
     return sortedArray[0];
     }
 }
+
+//Remove String Spaces
+
+function noSpace(x){
+ let newStr= x.split(' ').join('')
+ return newStr
+}
