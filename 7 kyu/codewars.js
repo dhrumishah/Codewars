@@ -33,3 +33,12 @@ function squareDigits(num){
   }
   return Number(res);
 }
+
+//Highest and Lowest
+
+function highAndLow(numbers){
+  let arr = '[' + numbers.split(" ").join(',') + ']'
+  arr = JSON.parse(arr).sort((a,b) => a-b)
+  return arr[arr.length-1] + " " +arr[0]
+  
+}
