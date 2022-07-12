@@ -81,3 +81,14 @@ function noSpace(x){
  let newStr= x.split(' ').join('')
  return newStr
 }
+
+//Square(n) Sum
+
+function squareSum(numbers){
+  const newArr= numbers.map(x => x**2)
+  let sum=0;
+  for (let i = 0; i < newArr.length; i++) {
+    sum+=newArr[i];  
+  }
+  return sum;
+}
