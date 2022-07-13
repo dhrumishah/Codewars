@@ -92,3 +92,14 @@ function squareSum(numbers){
   }
   return sum;
 }
+
+//Grasshopper - Summation
+
+var summation = function (num) {
+  const number= num;
+   let res = 0;
+   for(let i = 1; i <= number; i++){
+      res += i;
+   };
+   return res;
+};
