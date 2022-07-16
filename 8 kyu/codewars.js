@@ -113,3 +113,9 @@ function countSheeps(arrayOfSheep) {
   }
   return  count
   }
+
+// Function 1 - hello world
+
+greet = function() {
+  return "hello world!";
+}
