@@ -119,3 +119,10 @@ function countSheeps(arrayOfSheep) {
 greet = function() {
   return "hello world!";
 }
+
+// Convert a String to a Number!
+
+const stringToNumber = function(str){
+   num= Number(str)
+  return num;
+}
