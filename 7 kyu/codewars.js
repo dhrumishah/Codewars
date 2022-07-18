@@ -33,7 +33,6 @@ function squareDigits(num){
   }
   return Number(res);
 }
-
 //Highest and Lowest
 
 function highAndLow(numbers){
@@ -53,3 +52,10 @@ function getMiddle(s)
   }
   return result;
 }
+
+// Descending Order
+
+function descendingOrder(n){
+  return Number(n.toString().split('').sort((a,b)=> b-a).join(''));
+}
+
