@@ -126,3 +126,10 @@ const stringToNumber = function(str){
    num= Number(str)
   return num;
 }
+
+// Keep Hydrated!
+
+function litres(time) {
+  let val= time*0.5;
+  return Math.trunc(val)
+}
