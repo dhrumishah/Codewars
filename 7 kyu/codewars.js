@@ -59,3 +59,8 @@ function descendingOrder(n){
   return Number(n.toString().split('').sort((a,b)=> b-a).join(''));
 }
 
+// You're a square!
+
+var isSquare = function(n){
+  return Number.isInteger(Math.sqrt(n));
+}
