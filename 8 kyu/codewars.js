@@ -133,3 +133,10 @@ function litres(time) {
   let val= time*0.5;
   return Math.trunc(val)
 }
+
+// Basic Mathematical Operations
+
+function basicOp(operation, value1, value2)
+{
+  return eval(value1 + operation + value2) 
+}
