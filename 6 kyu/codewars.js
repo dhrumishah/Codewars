@@ -13,3 +13,10 @@ function likes(names) {
     return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
   }
 }
+
+//Bit Counting
+
+var countBits = function(n) {
+  var binary = n.toString(2).match(/1/g) != null ? n.toString(2).match(/1/g).length : 0;
+  return binary;
+}
