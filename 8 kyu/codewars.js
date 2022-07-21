@@ -147,3 +147,9 @@ function greet(name){
   let n= name
   return `Hello, ${n} how are you doing today?`
 }
+
+//  Convert number to reversed array of digits
+
+function digitize(n) {
+  return n.toString().split('').reverse().map(str => Number(str))
+}
