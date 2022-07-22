@@ -20,3 +20,15 @@ var countBits = function(n) {
   var binary = n.toString(2).match(/1/g) != null ? n.toString(2).match(/1/g).length : 0;
   return binary;
 }
+
+// Find the odd int
+
+function findOdd(A) {
+    var dict = {};
+    A.forEach(e => {
+        dict[e] = dict[e]+1 || 1 
+    })
+
+    for(k in dict)
+        if(dict[k]%2) return +k 
+}
