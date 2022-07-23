@@ -153,3 +153,9 @@ function greet(name){
 function digitize(n) {
   return n.toString().split('').reverse().map(str => Number(str))
 }
+
+// Beginner - Lost Without a Map
+
+function maps(x){
+  return x.map(el=>el*2)
+}
