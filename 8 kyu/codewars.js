@@ -159,3 +159,9 @@ function digitize(n) {
 function maps(x){
   return x.map(el=>el*2)
 }
+
+// Sum of odd numbers
+
+function rowSumOddNumbers(n) {
+	return n**3
+}
