@@ -12,3 +12,10 @@ function generateHashtag(str) {
 
   return strWithHash.length > 140 ? false : strWithHash;
 }
+
+//Last digit of a large number
+
+var lastDigit = function(str1, str2){  
+   return +str2 === 0 ? 1 : Math.pow(+str1.slice(-1), (+str2.slice(-2) % 4 || 4)) % 10
+}
+ 
