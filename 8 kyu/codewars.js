@@ -165,3 +165,8 @@ function maps(x){
 function rowSumOddNumbers(n) {
 	return n**3
 }
+//Century From Year
+
+function century(year) {
+  return Math.floor(year/100) + ((year%100) ? 1 : 0);
+}
