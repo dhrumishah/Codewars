@@ -170,3 +170,9 @@ function rowSumOddNumbers(n) {
 function century(year) {
   return Math.floor(year/100) + ((year%100) ? 1 : 0);
 }
+
+// Convert a Boolean to a String
+
+function booleanToString(b){
+  return b.toString()
+}
