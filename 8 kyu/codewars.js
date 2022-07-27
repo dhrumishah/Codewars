@@ -176,3 +176,9 @@ function century(year) {
 function booleanToString(b){
   return b.toString()
 }
+
+// You Can't Code Under Pressure #1
+
+function doubleInteger(i) {
+  return i*2;
+}
