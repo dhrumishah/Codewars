@@ -182,3 +182,9 @@ function booleanToString(b){
 function doubleInteger(i) {
   return i*2;
 }
+
+// Abbreviate a Two Word Name
+
+function abbrevName(name){
+  return name.split(" ").map(el => el[0].toUpperCase()).join(".")
+}
