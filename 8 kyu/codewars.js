@@ -188,3 +188,14 @@ function doubleInteger(i) {
 function abbrevName(name){
   return name.split(" ").map(el => el[0].toUpperCase()).join(".")
 }
+
+// Count by X
+
+function countBy(x, n) {
+  let z = [];
+  for (let i = 1; i <= n ; i++){
+   z.push(x*i) 
+  }
+  
+  return z;
+}
