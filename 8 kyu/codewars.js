@@ -199,3 +199,9 @@ function countBy(x, n) {
   
   return z;
 }
+
+// altERnaTIng cAsE <=> ALTerNAtiNG CaSe
+
+String.prototype.toAlternatingCase = function () {
+    return this.split("").map(arr => arr === arr.toUpperCase()? arr.toLowerCase(): arr.toUpperCase()).join('');
+}
