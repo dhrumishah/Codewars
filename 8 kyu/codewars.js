@@ -205,3 +205,16 @@ function countBy(x, n) {
 String.prototype.toAlternatingCase = function () {
     return this.split("").map(arr => arr === arr.toUpperCase()? arr.toLowerCase(): arr.toUpperCase()).join('');
 }
+
+// Count of positives / sum of negatives
+
+function countPositivesSumNegatives(input) {
+    let positiveNum = 0;
+    let negativeNum = 0;
+    if (input === null || input.length === 0) {
+      return [];
+    } else {
+      input.forEach((num) => num > 0 ? positiveNum++ : negativeNum += num);
+    }
+    return [positiveNum , negativeNum];
+}
