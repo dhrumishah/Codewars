@@ -218,3 +218,13 @@ function countPositivesSumNegatives(input) {
     }
     return [positiveNum , negativeNum];
 }
+
+//Beginner Series #2 Clock
+
+function past(h, m, s){
+  let hour= h*3600000;
+  let min=m*60000;
+  let sec=s*1000;
+  let miliseconds= hour+min+sec;
+  return miliseconds
+}
