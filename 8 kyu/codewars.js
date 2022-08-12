@@ -228,3 +228,10 @@ function past(h, m, s){
   let miliseconds= hour+min+sec;
   return miliseconds
 }
+
+// A Needle in the Haystack
+
+function findNeedle(haystack) {
+   let needle= (element)=> element=="needle"
+   return `found the needle at position ${haystack.findIndex(needle)}`
+}
