@@ -235,3 +235,9 @@ function findNeedle(haystack) {
    let needle= (element)=> element=="needle"
    return `found the needle at position ${haystack.findIndex(needle)}`
 }
+
+// MakeUpperCase
+
+function makeUpperCase(str) {
+  return str.toUpperCase()
+}
