@@ -32,3 +32,9 @@ function findOdd(A) {
     for(k in dict)
         if(dict[k]%2) return +k 
 }
+
+// Array.diff
+
+function arrayDiff(a, b) {
+  return a.filter(el => !b.includes(el));
+}
